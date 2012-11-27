@@ -5,7 +5,7 @@
 	require_once('./include/cache_start.php');
     require_once('./include/db_info.inc.php');
 	require_once('./include/setlang.php');
-	$view_title= "Welcome To Online Judge";
+	$view_title= "SCUT Online Judge BETA";
 	
 ///////////////////////////MAIN	
 	
@@ -27,7 +27,7 @@
 			$view_news.= "<tr><td><td>".$row->content."</tr>";
 		}
 		mysql_free_result($result);
-		$view_news.= "<tr><td width=20%><td>This <a href=http://cm.baylor.edu/welcome.icpc>ACM/ICPC</a> OnlineJudge is a GPL product from <a href=http://code.google.com/p/hustoj>hustoj</a></tr>";
+		$view_news.= "<tr><td width=20%><td>This <a href=http://cm.baylor.edu/welcome.icpc>ACM/ICPC</a> OnlineJudge is a GPL product from hustoj</tr>";
 		$view_news.= "</table>";
 	}
 $view_apc_info="";

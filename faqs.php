@@ -5,7 +5,7 @@
 	require_once('./include/cache_start.php');
     require_once('./include/db_info.inc.php');
 	require_once('./include/setlang.php');
-	$view_title= "Welcome To Online Judge";
+	$view_title= "About SCUTOJ - FAQs";
 
 /////////////////////////Template
 require("template/".$OJ_TEMPLATE."/faqs.php");

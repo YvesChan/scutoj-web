@@ -10,8 +10,11 @@
 <div id=main>
 <hr>
 <center>
-  <font size="+3">HUSTOJ Online Judge FAQ</font>
+  <font size="+3">SCUT Online Judge FAQ</font>
 </center>
+<hr>
+<h3>About SCUT Online Judge</h3>
+<h4>SCUT Online Judge is an open source online judge system powered by South China University of Technology, Department of Computer Science and Engineering, as a non-profit website. It's based on another open source project <a href="http://code.google.com/p/hustoj">HUSTOJ</a>. At present, it can provide the basic service of judging system, but our system is still evolving so far. Hope you enjoy it, SCUTers!</h4>
 <hr>
 <p><font color=green>Q</font>:What is the compiler the judge is using and what are the compiler options?<br>
   <font color=red>A</font>:The online judge system is running on <a href="http://www.debian.org/">Debian Linux</a>. We are using <a href="http://gcc.gnu.org/">GNU GCC/G++</a> for C/C++ compile, <a href="http://www.freepascal.org">Free Pascal</a> for pascal compile and <a href="http://www.oracle.com/technetwork/java/index.html">sun-java-jdk1.6</a> for Java. The compile options are:<br>
@@ -139,19 +142,10 @@ If you can't, then please <a href=registerpage.php>register</a> an id with passw
 <br>
 <hr>
 <center>
-  <font color=green size="+2">Any questions/suggestions please post to <a href="bbs.php">HUSTOJ BBS</a></font>
+  <font color=green size="+2">Any questions/suggestions please post to <a href="bbs.php">SCUTOJ BBS</a></font>
 </center>
 <hr>
-<center>
-  <table width=100% border=0>
-    <tr>
-      <td align=right width=65%>
-      <a href = "index.php"><font color=red>HUSTOJ</font></a> 
-      <a href = "http://code.google.com/p/hustoj/source/detail?r=486"><font color=red>R1299+</font></a></td>
-    </tr>
-  </table>
-</center>
-
+<br />
 <div id=foot>
 	<?php require_once("oj-footer.php");?>
 

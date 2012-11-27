@@ -1,5 +1,5 @@
 <div id=head>
-<h2><img id=logo src="<?php echo "template/".$OJ_TEMPLATE?>/image/logo.png"><span class="red">Welcome To <?php echo $OJ_NAME?> Online Judge</span></h2>
+<h2><img id=logo src="<?php echo "template/".$OJ_TEMPLATE?>/image/logo.png"><span class="red">Welcome To SCUT Online Judge System</span></h2>
 </div><!--end head-->
 <div id=subhead>
 	  <div id=menu>
